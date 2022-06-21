@@ -1,7 +1,7 @@
 # CME-Module-RDP-login-checker
 CrackMapExec module RDP login checker
 - install hydra (if not installed)
-- clone python file to  /root/.cme/modules/rdplogin.py (or wait until code is accepted on https://github.com/byt3bl33d3r/CrackMapExec and update)
+- clone python file to  /root/.cme/modules/rdplogin.py (temporary solution for new feature https://github.com/byt3bl33d3r/CrackMapExec)
 - crackmapexec smb 10.10.10.10 -u someuser -p somepass **-M rdplogin**
 - _tested with **impacket-rdp_check** tested but this was reliable, code maybe later (for PTH)._
 
