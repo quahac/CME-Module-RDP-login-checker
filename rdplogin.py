@@ -2,7 +2,10 @@ import subprocess, os, re
 
 
 class NXCModule:
-
+    '''
+    usage: nxc smb 10.10.10.10 -u someuser -p somepass -M rdplogin 
+    quahac @github @twitter 
+    '''
     name = 'rdplogin'
     description = 'Module checks if a valid user has also Remote Desktop access on the server...(needs Hydra to work!)'
     supported_protocols = ['smb']
